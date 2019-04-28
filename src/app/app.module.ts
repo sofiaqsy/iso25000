@@ -10,8 +10,7 @@ import { MenuSidenavComponent } from './layout/component/menu-sidenav/menu-siden
 import { UserComponent } from './user/user.component';
 import { RegistryComponent } from './user/component/registry/registry.component';
 import { ProjectComponent } from './project/project.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import {HomeComponent} from './dashboard/component/home/home.component';
+import {HomeComponent} from './layout/component/home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import {HomeComponent} from './dashboard/component/home/home.component';
     UserComponent,
     RegistryComponent,
     ProjectComponent,
-    HomeComponent,
-    DashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
