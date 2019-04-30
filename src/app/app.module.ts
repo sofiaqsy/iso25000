@@ -7,8 +7,6 @@ import { LoginComponent } from './login/login.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './layout/component/header/header.component';
 import { MenuSidenavComponent } from './layout/component/menu-sidenav/menu-sidenav.component';
-import { UserComponent } from './user/user.component';
-import { RegistryComponent } from './user/component/registry/registry.component';
 import { ProjectComponent } from './project/project.component';
 import {HomeComponent} from './layout/component/home/home.component';
 
@@ -19,8 +17,6 @@ import {HomeComponent} from './layout/component/home/home.component';
     LayoutComponent,
     HeaderComponent,
     MenuSidenavComponent,
-    UserComponent,
-    RegistryComponent,
     ProjectComponent,
     HomeComponent
   ],

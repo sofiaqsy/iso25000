@@ -1,7 +1,6 @@
 import {Routes} from '@angular/router';
 import {HomeComponent} from './component/home/home.component';
 import {ProjectComponent} from '../project/project.component';
-import {UserComponent} from '../user/user.component';
 
 export const layoutRoutes: Routes = [
   { path: '',
@@ -12,7 +11,8 @@ export const layoutRoutes: Routes = [
     component: ProjectComponent
   },
   {
-    path: 'users',
-    component: UserComponent
-  },
+    path: 'usuario',
+    loadChildren: '../user/user.module#UserModule'
+  }
+
 ];
